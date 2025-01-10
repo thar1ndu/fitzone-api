@@ -3,7 +3,7 @@
 session_start();
 
 // Include database connection
-require_once('../db/db_connection.php');
+require_once('../db/connect.php');
 
 // Set response type to JSON
 header("Content-Type: application/json");
